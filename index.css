@@ -1,0 +1,115 @@
+.home {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: black;
+    /* background-color: skyblue; */
+    background-image: url("./Assets/Home-page.jpg");
+    background-repeat: no-repeat;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    color: #031f1e;
+    background-size: 100vw 100vh;
+    place-items: center;
+}
+
+.selection {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: black;
+    background-image: url("./Assets/Selection-page.png");
+    background-repeat: no-repeat;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    color: #031f1e;
+    background-size: 100vw 100vh;
+    place-items: center;
+}
+
+.intro {
+    color: #8a0e43;
+}
+
+h1 {
+    color: #8a033e;
+}
+
+.mode {
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 1px;
+    margin-bottom: 12px;
+    text-align: center;
+    justify-content: center;
+    width: 400px;
+    height: 320px;
+    place-items: center;
+    color: #c7065a;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.mode button {
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.mode button a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #249f9c;
+    font-weight: bold;
+}
+
+.mode button a:hover {
+    color: #037a76;
+}
+
+.intro {
+    color: #ffffff;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.player {
+  color: #555df2;
+}
+
+.intro button {
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.intro button a {
+    font-size: 36px;
+    text-decoration: none;
+    color: #249f9c;
+    font-weight: bold;
+}
+
+.intro button a:hover {
+    color: #037a76;
+}
+
+#start {
+    display: none;
+    color: gray;
+    pointer-events: none;
+    text-decoration: none;
+}
+
+#start.enabled {
+    animation: squidFlash 2.5s infinite;
+    pointer-events: auto;
+    display: inline-block;
+}
+
+
+@keyframes squidFlash {
+    0%    { color: #00FFFF; }
+    50%   { color: #008080; }
+    100%  { color: #00FFFF; }
+}

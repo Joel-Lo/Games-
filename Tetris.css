@@ -1,0 +1,61 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: black;
+    background-size: cover;
+    background-image: url("./Assets/Games-page.jpg");
+    background-repeat: no-repeat;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    color: #ed1b76;
+    background-size: 100vw 100vh;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+}
+
+.h3{
+    color: #80a302;
+    font-size: 32px;
+}
+
+.grid {
+    border-radius: 10px;
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(15, 31, 34, 0.8);
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.tetromino {
+    background-color: #006663;
+}
+
+.mini-grid {
+    border-radius: 10px;
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(7, 33, 101, 0.8);
+}
+
+.mini-grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.container {
+    display: flex;
+}

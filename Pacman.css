@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Emulogic';
+    src: url('assets/font/Emulogic.ttf') format('truetype');
+}
+body {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    /* background-color: black; */
+    flex-direction: column;
+    display: flex;
+    width: 400px;   
+    gap: 20px;   
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./Assets/Games-page.jpg");
+    background-size: 100vw 100vh;
+}
+
+.pacman-logo {
+    height: 70px;
+    width: auto;
+}
+#canvas {
+    position: fixed;
+    /* display: none; */
+    border: solid 1px pink;
+}
+
+#animation, #ghost {
+    width: 140px;
+    height: 20px;
+}
+
+#gameOver {
+    text-align: center;
+    color: #fff;
+    font-family: 'Emulogic';
+}
+
+#startButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(7, 33, 101);
+    color: #ed1b76;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+
+#gameOver,
+#canvas {
+    transition: opacity 0.5s ease-in-out;
+}
+

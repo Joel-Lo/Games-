@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squid Game</title>
+    <link rel="icon" type="image/x-icon" href="./Assets/logo.png">
+    <link rel="stylesheet" href="Snake Game.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="Snake Game.js"></script>
+</head>
+<body>
+    <div id="game-container">
+        <div class="scores">
+            <div class="score-item">
+                <span class="score-icon"><img class="img" src="./Assets/Food Umb.jpeg"></span>
+                <h1 id="score">0</h1>
+            </div>
+            <div class="score-item-1">
+                <span class="score-icon">🏆</span>
+                <h1 id="highScore">0</h1>
+            </div>
+        </div>
+        <div id="game-board"></div>
+        <canvas id="board"></canvas>
+
+        <button id="startButton">START GAME</button>
+    </div>
+</body>
+</html>
